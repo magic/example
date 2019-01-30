@@ -1,6 +1,6 @@
 {
-  "name": "@magic-modules/pre",
-  "version": "0.0.1",
+  "name": "@magic/example",
+  "version": "0.23.5",
   "main": "src/index.js",
   "files": [
     "src"
@@ -10,6 +10,7 @@
     "format": "f -w",
     "test": "t",
     "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
     "dev": "magic dev",
     "publish": "magic publish",
     "connect": "magic connect"
