@@ -28,6 +28,6 @@
   "homepage": "https://github.com/magic-modules/pre#readme",
   "devDependencies": {
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.4"
+    "@magic/test": "0.0.7"
   }
 }
