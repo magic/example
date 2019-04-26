@@ -17,17 +17,55 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic-modules/pre.git"
+    "url": "git+https://github.com/magic/example.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/magic-modules/pre/issues"
+    "url": "https://github.com/magic/example/issues"
   },
-  "homepage": "https://github.com/magic-modules/pre#readme",
+  "homepage": "https://github.com/magic/example#readme",
   "devDependencies": {
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.7"
-  }
+    "@magic/test": "0.0.10"
+  },
+  "author": "Wizards & Witches",
+  "description": "@magic example page.",
+  "keywords": [
+    "magic",
+    "example"
+  ],
+  "license": "AGPL-3.0",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "philipp tiefenbacher",
+      "github": "wizard23"
+    },
+    {
+      "name": "tom peak",
+      "github": "tompeak"
+    },
+    {
+      "name": "phileas lebada",
+      "github": "norpol"
+    },
+    {
+      "name": "litto",
+      "github": "mslitto"
+    },
+    {
+      "name": "daniel safar",
+      "github": "n1c3"
+    },
+    {
+      "name": "jay vaughan",
+      "github": "seclorum"
+    },
+    {
+      "name": "alexander weiss",
+      "github": "ylem235"
+    }
+  ]
 }
