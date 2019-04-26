@@ -12,10 +12,10 @@ module.exports = {
       ul([li('and contain'), li('lists of content')]),
     ]),
 
-    Count.View(state, actions),
+    Count,
 
     h2('local var:'),
     p('the variable determining the color is local to this page.'),
-    Wrapper.View(state, actions),
+    Wrapper,
   ],
 }
