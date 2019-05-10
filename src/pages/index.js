@@ -16,6 +16,6 @@ module.exports = {
 
     h2('local var:'),
     p('the variable determining the color is local to this page.'),
-    Wrapper,
+    Outside,
   ],
 }
