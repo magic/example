@@ -1,22 +1,23 @@
-const Outside = (state, actions) =>
+export const View = state =>
   div({ class: `Outside${state.outside.localVar ? ' Test' : ''}` }, [
-    Inside,
-    button({ onclick: actions.wrapperAction }, [state.outside.buttonText, state.buttonGlobal]),
+    Inside(state),
+    button({ onclick: [actions.wrapperAction] }, [state.outside.buttonText, state.buttonGlobal]),
   ])
 
-Outside.state = {
+export const state = {
   localVar: false,
   buttonText: 'click',
   buttonGlobal: ' me!',
 }
 
-Outside.actions = {
-  wrapperAction: () => state => ({
+export const actions = {
+  wrapperAction: state => ({
+    ...state,
     outside: { ...state.outside, localVar: !state.outside.localVar },
   }),
 }
 
-Outside.style = {
+export const style = {
   '.Outside': {
     color: 'orange',
 
@@ -26,7 +27,7 @@ Outside.style = {
   },
 }
 
-Outside.global = {
+export const global = {
   state: {
     buttonGlobal: true,
   },
@@ -34,5 +35,3 @@ Outside.global = {
     wrapperAction: true,
   },
 }
-
-module.exports = Outside

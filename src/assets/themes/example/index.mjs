@@ -1,4 +1,4 @@
-const theme = {
+export default {
   a: {
     textDecoration: 'none',
     color: 'blue',
@@ -14,5 +14,3 @@ const theme = {
     fontSize: '1.2em',
   },
 }
-
-module.exports = theme
