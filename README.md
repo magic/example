@@ -16,8 +16,8 @@ git clone https://github.com/magic/example
 
 [npm-image]: https://img.shields.io/npm/v/@magic/example.svg
 [npm-url]: https://www.npmjs.com/package/@magic/example
-[travis-image]: https://api.travis-ci.org/magic/example.svg?branch=master
-[travis-url]: https://travis-ci.org/magic/example
+[travis-image]: https://api.travis-ci.com/magic/example.svg?branch=master
+[travis-url]: https://travis-ci.com/magic/example
 [appveyor-image]: https://img.shields.io/appveyor/ci/magic/example/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magic/example/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic/example/badge.svg
