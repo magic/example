@@ -1,17 +1,24 @@
 {
   "name": "@magic/example",
   "version": "0.23.5",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic.github.io/example",
+  "license": "AGPL-3.0",
+  "description": "@magic example page.",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
     "test": "t --exclude docs",
     "build": "NODE_ENV=production magic build",
     "prod": "NODE_ENV=production magic build serve",
-    "dev": "magic dev",
-    "publish": "magic publish",
-    "connect": "magic connect"
+    "dev": "magic dev"
   },
-  "main": "src/index.js",
   "files": [
     "src"
   ],
@@ -26,46 +33,14 @@
     "@magic/core": "github:magic/core",
     "@magic/test": "0.1.9"
   },
-  "author": "Wizards & Witches",
-  "homepage": "https://magic.github.io/example",
-  "description": "@magic example page.",
   "keywords": [
     "magic",
     "example"
   ],
-  "license": "AGPL-3.0",
   "contributors": [
     {
       "name": "jascha ehrenreich",
       "github": "jaeh"
-    },
-    {
-      "name": "philipp tiefenbacher",
-      "github": "wizard23"
-    },
-    {
-      "name": "tom peak",
-      "github": "tompeak"
-    },
-    {
-      "name": "phileas lebada",
-      "github": "norpol"
-    },
-    {
-      "name": "litto",
-      "github": "mslitto"
-    },
-    {
-      "name": "daniel safar",
-      "github": "n1c3"
-    },
-    {
-      "name": "jay vaughan",
-      "github": "seclorum"
-    },
-    {
-      "name": "alexander weiss",
-      "github": "ylem235"
     }
   ]
 }
