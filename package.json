@@ -8,6 +8,7 @@
   "main": "src/index.mjs",
   "module": "src/index.mjs",
   "type": "module",
+  "private": true,
   "engines": {
     "node": ">=12.2.0"
   },
