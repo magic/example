@@ -29,6 +29,10 @@
   "bugs": {
     "url": "https://github.com/magic/example/issues"
   },
+  "dependencies": {
+    "@magic/core": "0.0.3",
+    "@magic-modules/gdpr": "0.0.6"
+  },
   "devDependencies": {
     "@magic/test": "0.1.23"
   },
@@ -41,9 +45,5 @@
       "name": "jascha ehrenreich",
       "github": "jaeh"
     }
-  ],
-  "dependencies": {
-    "@magic/core": "0.0.3",
-    "@magic-modules/gdpr": "0.0.6"
-  }
+  ]
 }
