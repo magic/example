@@ -43,7 +43,7 @@
     }
   ],
   "dependencies": {
-    "@magic/core": "0.0.2",
-    "@magic-modules/gdpr": "0.0.2"
+    "@magic/core": "0.0.3",
+    "@magic-modules/gdpr": "0.0.6"
   }
 }
