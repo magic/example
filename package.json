@@ -31,8 +31,8 @@
     "url": "https://github.com/magic/example/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.3",
-    "@magic-modules/gdpr": "0.0.6"
+    "@magic/core": "0.0.4",
+    "@magic-modules/gdpr": "0.0.8"
   },
   "devDependencies": {
     "@magic/test": "0.1.23"
