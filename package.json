@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@magic/core": "0.0.3",
-    "@magic-modules/gdpr": "0.0.6"
+    "@magic-modules/gdpr": "0.0.7"
   },
   "devDependencies": {
     "@magic/test": "0.1.23"
