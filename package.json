@@ -31,11 +31,11 @@
     "url": "https://github.com/magic/example/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.4",
-    "@magic-modules/gdpr": "0.0.8"
+    "@magic/core": "0.0.15",
+    "@magic-modules/gdpr": "0.0.12"
   },
   "devDependencies": {
-    "@magic/test": "0.1.23"
+    "@magic/test": "0.1.25"
   },
   "keywords": [
     "magic",
