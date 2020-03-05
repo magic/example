@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic/example.git"
+    "url": "git+https://github.com/magic-examples/example.git"
   },
   "bugs": {
-    "url": "https://github.com/magic/example/issues"
+    "url": "https://github.com/magic-examples/example/issues"
   },
   "dependencies": {
     "@magic-modules/gdpr": "0.0.14",
