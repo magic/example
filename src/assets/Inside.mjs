@@ -1,1 +1,1 @@
-export const View = state => [i(state.title)]
+export const View = ({ state = {} }) => [i(state.title)]

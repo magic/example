@@ -1,6 +1,6 @@
-export const View = state =>
+export const View = ({ state }) =>
   div({ class: `Outside${state.outside.localVar ? ' Test' : ''}` }, [
-    Inside(state),
+    Inside({ state }),
     button({ onclick: [actions.wrapperAction] }, [state.outside.buttonText, state.buttonGlobal]),
   ])
 
