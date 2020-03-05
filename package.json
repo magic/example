@@ -1,8 +1,8 @@
 {
-  "name": "@magic/example",
+  "name": "@magic-examples/example",
   "version": "0.23.5",
   "author": "Wizards & Witches",
-  "homepage": "https://magic.github.io/example",
+  "homepage": "https://magic-examples.github.io/example",
   "license": "AGPL-3.0",
   "description": "@magic example page.",
   "main": "src/index.mjs",
