@@ -10,7 +10,7 @@
   "type": "module",
   "private": true,
   "engines": {
-    "node": ">=12.2.0"
+    "node": ">=14.2.0"
   },
   "scripts": {
     "start": "t -p",
