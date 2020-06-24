@@ -31,8 +31,8 @@
     "url": "https://github.com/magic-examples/example/issues"
   },
   "dependencies": {
-    "@magic-modules/gdpr": "0.0.16",
     "@magic-modules/light-switch": "0.0.6",
+    "@magic-modules/no-spy": "0.0.1",
     "@magic-themes/example": "0.0.3",
     "@magic/core": "0.0.81"
   },
