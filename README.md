@@ -1,4 +1,4 @@
-## @magic/example
+## @magic-examples/example
 
 This is a simple example app that show some of the [@magic](https://github.com/magic) features.
 
@@ -11,7 +11,7 @@ This is a simple example app that show some of the [@magic](https://github.com/m
 
 #### install:
 ```bash
-git clone https://github.com/magic/example
+git clone https://github.com/magic-examples/example
 ```
 
 [npm-image]: https://img.shields.io/npm/v/@magic/example.svg
