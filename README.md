@@ -31,7 +31,7 @@ github organization to see other examples
 #### requirements
 
 * be in a directory you want to work in
-* have nodejs > 13.5.0 installed.
+* have nodejs > 14.2.0 installed.
 
 ```
 // clone this repository
