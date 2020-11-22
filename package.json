@@ -37,8 +37,8 @@
     "@magic/core": "0.0.93"
   },
   "devDependencies": {
-    "@magic/format": "0.0.18",
-    "@magic/test": "0.1.57"
+    "@magic/format": "0.0.19",
+    "@magic/test": "0.1.58"
   },
   "keywords": [
     "magic",
